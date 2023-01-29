@@ -1,0 +1,190 @@
+
+
+
+/*tablet header*/
+@media screen and (min-width: 768px) {
+    .container {
+      width: 768px;
+    }
+  
+    .mob-menu {
+      display: none;
+    }
+  
+    .burger-button {
+      display: none;
+    }
+  
+    header > .container {
+      padding-bottom: 10px;
+    }
+  
+    .container {
+      width: 768px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  
+    .logo {
+      line-height: 1.33;
+    }
+  
+    .site-nav.list {
+      display: flex;
+      gap: 40px;
+      padding-left: 123px;
+    }
+  
+    .contacts.list {
+      padding: 0;
+      margin-left: auto;
+    }
+  
+    .link.email {
+      padding-bottom: 4px;
+    }
+  
+
+  /*tablet hero*/
+
+    .hero {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero-tablet.jpg");
+      height: 436px;
+      max-width: 768px;
+      padding-bottom: 108px;
+    }
+  
+    .hero-title {
+      font-size: 56px;
+      line-height: 1.07;
+      max-width: 494px;
+      margin-bottom: 40px;
+    }
+}
+  
+  @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/hero-tablet@2x.jpg");
+    }
+  }
+
+  /*tablet features*/
+@media screen and (min-width: 768px) {
+    .feature-img {
+      display: none;
+    }
+  
+    .features-section {
+      padding-bottom: 24px;
+    }
+  
+    .list.features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      row-gap: 0px;
+    }
+  
+    .features > .item {
+      width: 356px;
+    }
+  
+    .feature-ttl {
+      text-align: left;
+    }
+  
+
+  /*tablet team*/
+
+    .team-cards {
+      row-gap: 64px;
+      column-gap: 24px;
+      justify-content: center;
+    }
+  
+    .team-cards .item {
+      margin: 0;
+    }
+  
+
+  /*tablet team*/
+
+    .customers-list {
+      column-gap: 24px;
+    }
+  
+    .customer-item {
+      max-width: 168px;
+    }
+  
+
+  /*tablet footer*/
+
+    .footer-block {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 24px;
+      padding-left: 108px;
+    }
+  
+    .footer-media > h2 {
+      text-align: left;
+    }
+  
+    .footer-txt {
+      text-align: left;
+    }
+  
+    .footer-text {
+      width: 264px;
+    }
+  
+    .subscribe-title {
+      text-align: left;
+      width: 100%;
+    }
+  
+    .email-box,
+    .email-box-wrap {
+      width: 264px;
+    }
+  
+    .subscribe-form {
+      display: flex;
+      column-gap: 24px;
+    }
+  
+
+
+  /*PORTFOLIO CARDS*/
+  .portfolio {
+    padding: 96px 0;
+  }
+  .filters {
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+
+  .card-set {
+    column-gap: 24px;
+    row-gap: 72px;
+
+  }
+
+  .card-set > .item {
+    max-width: 356px;
+  }
+
+}
